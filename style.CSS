@@ -1,0 +1,265 @@
+<style>
+		*{
+			padding: 0px;
+			margin:0px;
+		}
+		.container{
+			width: 1100px;
+			height: 1500px;
+			margin:0  auto;
+		}
+		.header{
+			height:133px;
+			background-color: #333333;
+
+		}
+		.row{
+			width: 960px;
+			margin: 0 auto; 
+
+		}
+		.header_left,.header_right{
+			height: 100px;
+			list-style: none;
+			width: 480px;
+			float: left;
+		}
+		 .header_left   a{
+			font-size: 60px;
+			font-family: "Myriad pro";
+			text-decoration:none;
+			color: #eeeeee;
+			line-height:133px;
+
+			
+		}
+	.header_right ul{
+		list-style: none;
+		margin-top: 73px;
+		float: right;
+
+	}
+	.header_right ul li{
+		float: left;
+		color: #eeeeee;
+		margin-left:10px;
+
+
+	}
+	.header_right ul li a{
+		font-family: "Arial";
+		text-decoration:none;
+		color: inherit;
+
+	}
+	.header_right ul li .active{
+		color:#00aeef;
+
+		}
+		.tozalash{
+			clear: both;
+		}
+		.content{
+    	width: 960px;
+    	height: 153px;
+    	border-bottom-style: dotted;
+    	border-color: #cccccc;
+    }
+    .featured-content{
+    	height: 207px;
+    	margin-top:  68px;
+    }
+    .first_line{
+        font-family: "Times New Roman";
+        font-size: 59.99px;
+        color: #333333;
+
+    }
+    .first_line b{
+    	color: #00bff3;
+    }
+    .second_line{
+    	font-family: "MyriadPro";
+    	font-size: 49.99px;
+    	color: #bbbbbb;
+    }
+    .content1{
+    	height: 190px;
+    	border-bottom-style: dotted;
+    	border-color: #cccccc;
+    }
+    .third_line{
+    	font-family: "Times New Roman";
+    	font-size: 34px;
+    	color: #555555;
+    }
+    .third_line b{
+    	color: #555555;
+    }
+    .end_service_box{
+    	font-family: "Ebrima";
+    	font-size: 35px;
+        color: #ffffff;
+        padding: 0px;
+        height: 460px;
+        text-align: center;
+    }
+    .content2{
+    	height: 457px;
+    	border-bottom-style: dotted;
+    	border-color: #cccccc;
+    }
+    .box{
+    	float: left;
+    	width: 280px;
+    	height: 352px;
+    	background-color: #00aeef;
+    	margin: 20px;
+    	margin-top: 47px;
+    	margin-bottom: 47px;
+    }
+    
+    .oddiy{
+    
+    	border-bottom: dotted;
+    	border-color: #cccccc;
+    	margin-top: 10px;
+    	margin-left: 30px;
+    }
+    .box .tex{
+    	font-family: "Arial";
+    	font-size:18px;
+    	line-height: 26px;
+    	text-align: center;
+    	margin-left: 10px;
+    	margin-right: 10px;
+    }
+    .quti{
+    	width: 232px;
+    	height: 41px;
+    	border-width: 232px;
+    	border-color: #1a5a72;
+    	background-color: #0076a3;
+    	margin-left: 22px;
+    	margin-top: 35px;
+    }
+    .quti a{
+    	font-family: "Times New Roman";
+    	font-size: 18px;
+    	color: #ffffff;
+    	text-decoration: none;
+    	display: block;
+    	padding: 9px;
+    	border: 1px;
+    	border-color: #1a5a72;
+    }
+     .horizontal-line{
+    	border-bottom: dotted;
+    	border-color: #cccccc;
+    }
+    .info { 
+    	margin-top: 10px;
+        height: 470px;
+    }
+    .info .client {
+        float: left; 
+        width: 425px;
+        padding: 0 45px 0 0;
+        border-right: dotted;
+        border-color: #cccccc;
+
+    }
+    .info .client h3 {
+        width: 200px; 
+        height: 28px;
+        font-size: 24px;
+        font-family: "Times New Roman";
+        color: #555555;
+    }
+    .testimonial {  
+	    margin: 0 0 32px -5px;  
+	    margin-top: 40px;
+	}
+    .testimonial .author-img { 
+	   float: left; 
+	   background-color: #ccc; 
+	   width: 84px; 
+	   height: 84px; 
+	   margin: 4px 28px 0 5px; 
+	}
+    .testimonial img { 
+	   margin: 3px 0 0 3px;  
+	}
+    .testimonial p {
+       color: #555; 
+       font-size: 14px; 
+       line-height: 21px; 
+       margin: 0 0 12px 0; 
+    }
+    .testimonial p.author-name { 
+	  font-weight: bold; 
+	  margin: 0;  
+    }
+    .testimonial a { 
+	  color: #00aeef; 
+	  font-size: 14px; 
+	  text-decoration: none; 
+    }
+    .testimonial a:hover { 
+	  color: #555; 
+    }
+
+    .project { 
+	  float: left; 
+	  margin: 0 0 0 45px; 
+	  width: 425px; 
+    }
+    .project h3 { 
+	  width: 180px; 
+      height: 28px;
+      font-size: 24px;
+      font-family: "Times New Roman";
+      color: #555555;
+	}
+    .project h4 { 
+	  font-size: 20px; 
+	  color: #888; 
+	  font-weight: normal; 
+	  margin: 0 0 8px 0;
+	  margin-top: 40px; 
+	}
+    .project img { 
+	  margin: 0 0 7px 0;
+    }
+   .project p { 
+	  font-size: 14px; 
+	  color: #555; 
+	  line-height: 21px; 
+	  margin-bottom: 7px; 
+	}
+  .project a{ 
+	  color: #00aeef; 
+	  font-size: 14px; 
+	  text-decoration: none; 
+	}
+    .project a:hover{ 
+	  color: #555; 
+	}
+
+  .footer { 
+	  height: 70px; 
+	  padding: 0 0 30px 0; 
+	}
+    .footer p { 
+	  font-size: 16px; 
+	  color: #888; 
+	  padding: 14px 0 0 0; 
+	}
+	.nuqtalar2{
+		height: 457px;
+    	border-bottom-style: dotted;
+    	border-color: #cccccc;
+
+}
+	</style>
+	
